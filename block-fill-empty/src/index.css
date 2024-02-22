@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+.grid {
+  display: grid;
+  max-width: 300px;
+  width: 100%;
+  padding: 20px;
+  gap: 20px;
+  border: 1px solid #000;
+}
+.cell {
+  background-color: transparent;
+  border: 1px solid #000;
+  height: 0;
+  padding-bottom: 100%;
+  transition: background-color 2s ease-in-out;
+}
+.cell-activated {
+  background-color: green;
+}

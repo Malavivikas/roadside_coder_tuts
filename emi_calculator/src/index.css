@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 98%;
+  height: auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.title {
+  font-weight: 700;
+}
+input[type="number"] {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.lables {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+.slider-container {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+input[type="range"] {
+  max-width: 650px;
+  width: 100%;
+  accent-color: coral;
+}
+.lables {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.tenure-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 50%;
+}
+.tenure {
+  width: 15%;
+  height: 50px;
+  border: none;
+  border-radius: 100px;
+  background-color: rgb(226, 226, 226);
+}
+.selected {
+  background-color: #009ad6;
+  color: white;
+}
